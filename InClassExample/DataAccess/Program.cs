@@ -56,7 +56,7 @@ namespace DataAccess
                 r += number;
             }
    
-
+                //d
             return r;
         }
 
