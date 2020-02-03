@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPF_Control.Datetime.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Control.Datetime"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF6E3838">
+        <Label Content="My First WPF APP!" HorizontalAlignment="Left" Height="81" Margin="182,32,0,0" VerticalAlignment="Top" Width="475" FontFamily="Showcard Gothic" FontSize="48" Background="Transparent" Foreground="#FFA04141"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="36" Margin="166,118,0,0" TextWrapping="Wrap" Text="Yizhou" VerticalAlignment="Top" Width="156"/>
+        <Label Content="First Name:" HorizontalAlignment="Left" Height="36" Margin="37,118,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label Content="Last Name:" HorizontalAlignment="Left" Height="36" Margin="37,207,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label Content="Birthdate:" HorizontalAlignment="Left" Height="36" Margin="37,320,0,0" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="36" Margin="166,207,0,0" TextWrapping="Wrap" Text="Wang" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="txtBirthDate" HorizontalAlignment="Left" Height="36" Margin="166,320,0,0" TextWrapping="Wrap" Text="1996/08/13" VerticalAlignment="Top" Width="156"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Height="63" Margin="357,293,0,0" VerticalAlignment="Top" Width="141" Click="Button_Click" IsDefault="True"/>
+        <Button Content="X" HorizontalAlignment="Left" Height="34" Margin="698,32,0,0" VerticalAlignment="Top" Width="37" Click="Button_Click_1"/>
+        <ListBox x:Name="lstLetters" HorizontalAlignment="Left" Height="232" Margin="506,118,0,0" VerticalAlignment="Top" Width="258" RenderTransformOrigin="0.5,0.5" SelectionChanged="lstLetters_SelectionChanged">
+            <ListBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.512"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.621"/>
+                </TransformGroup>
+            </ListBox.RenderTransform>
+        </ListBox>
+
+    </Grid>
+</Window>
