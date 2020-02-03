@@ -27,12 +27,15 @@ namespace _P__WPF___Class___Listbox
 
         }
 
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             EntryForm ef = new EntryForm();
             ef.Address = txtAddress.Text;
             ef.Name = txtName.Text;
             ef.ZipCode =Convert.ToInt32(txtZipcode.Text);
+
+        
  
             
             
