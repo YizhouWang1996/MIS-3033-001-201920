@@ -34,9 +34,8 @@ namespace _P__WPF___Class___Listbox
             ZipCode = zipCpde;
         }
         public override string ToString()
-        {
-            return base.ToString();
-           // return $"Thank you {Name}, you live in {Address},and your zipcode is {ZipCode}";
+        {        
+            return $"Thank you {Name}, you live in {Address},and your zipcode is {ZipCode}";
         }
     }
 }
