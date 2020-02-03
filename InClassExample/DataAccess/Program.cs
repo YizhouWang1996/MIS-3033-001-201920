@@ -13,7 +13,7 @@ namespace DataAccess
         {
 
             double num1, num2, num3;
-            num1 = 28;
+            num1 = 788;
             num2 = 482.2;
             num3 = 382.222;
             Add(5, 17.5);
