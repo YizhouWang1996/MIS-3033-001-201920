@@ -31,6 +31,8 @@ namespace WPF_Control.Datetime
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+
             lstLetters.Items.Clear();
             string firstname, lastname, birthDate;
             firstname = txtFirstName.Text;
